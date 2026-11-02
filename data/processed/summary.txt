@@ -1,0 +1,23 @@
+Indian polygons: 1204  (2293.4 km2)
+Iron points used: 257
+  gem: 252 (exact=222, approximate=30)
+  jasansky2023: 5 (unknown=5)
+
+Key mines (missing ones belong in iron_points_extra.csv):
+  Noamundi: found
+  Kiriburu: found
+  Meghahatuburu: found
+  Bacheli: found
+  Kirandul: found
+  Donimalai: found
+  Kumaraswamy: found
+
+Tagged iron by buffer (all India):
+  0 km: 106
+  1 km: 162
+  2 km: 200
+
+Per belt:
+  singhbhum_keonjhar (train): 126 polygons, 95.1 km2; iron-tagged 0km=47, 1km=87, 2km=106
+  bailadila (train): 8 polygons, 15.6 km2; iron-tagged 0km=5, 1km=6, 2km=8
+  bellary_hospet_sandur (test): 50 polygons, 132.4 km2; iron-tagged 0km=26, 1km=29, 2km=35

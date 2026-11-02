@@ -1,0 +1,19 @@
+/* White map type with a dark halo — no label boxes over the imagery. */
+.map-label {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+  paint-order: stroke fill;
+  -webkit-text-stroke: 3px rgba(9, 16, 24, 0.78);
+  text-shadow: 0 1px 2px rgba(9, 16, 24, 0.6);
+}
+.mine-label { font-size: 12px; display: none; }
+.show-mine-labels .mine-label { display: block; }
+.zone-label { font-size: 11.5px; -webkit-text-stroke-width: 2.5px; display: none; }
+.zone-label-top, .show-mine-labels .zone-label { display: block; }
+
+.mine-marker { display: flex; flex-direction: column; align-items: center; gap: 3px; cursor: default; }
+.mine-glyph { filter: drop-shadow(0 1px 2px rgba(9,16,24,.75)); }

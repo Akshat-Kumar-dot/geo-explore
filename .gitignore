@@ -1,0 +1,14 @@
+node_modules
+dist
+.env
+*.local
+.env.local
+.env.*.local
+.vscode/
+.idea/
+.claude/
+.DS_Store
+*.log
+data/raw/
+pipeline/.venv/
+__pycache__/
